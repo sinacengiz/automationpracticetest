@@ -1,16 +1,16 @@
 # automationpracticetest
-package test.maven;
+	package test.maven;
 
-import java.util.concurrent.TimeUnit;
+	import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+	import org.openqa.selenium.By;
+	import org.openqa.selenium.WebDriver;
+	import org.openqa.selenium.chrome.ChromeDriver;
+	import org.testng.annotations.AfterClass;
+	import org.testng.annotations.BeforeClass;
+	import org.testng.annotations.Test;
 
-public class TestMaven {
+	public class TestMaven {
 	
 	public WebDriver driver;
 	
@@ -25,8 +25,8 @@ public class TestMaven {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.close();
 	}
-@Test (groups= {"MyGroup"})
-public void filloutsecond() {
+	@Test (groups= {"MyGroup"})
+	public void filloutsecond() {
 	 driver.get("http://automationpractice.com");
 		driver.manage().window().maximize();
 	    driver.findElement(By.className("login")).click();
@@ -62,5 +62,5 @@ public void filloutsecond() {
 		    
 		  
 		    
-}
-}
+	}
+	}
