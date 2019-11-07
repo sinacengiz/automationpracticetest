@@ -42,11 +42,11 @@ public void filloutsecond() {
 	
 		    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		    driver.findElement(By.id("id_gender1")).click();
-		    driver.findElement(By.id("customer_firstname")).sendKeys("sia");
-		    driver.findElement(By.id("customer_lastname")).sendKeys("cenz");
-		    driver.findElement(By.id("passwd")).sendKeys("devil");
-		    driver.findElement(By.id("days")).sendKeys("5");
-		    driver.findElement(By.id("months")).sendKeys("January");
+		    driver.findElement(By.id("customer_firstname")).sendKeys("sina");
+		    driver.findElement(By.id("customer_lastname")).sendKeys("cengiz");
+		    driver.findElement(By.id("passwd")).sendKeys("daredevil");
+		    driver.findElement(By.id("days")).sendKeys("20");
+		    driver.findElement(By.id("months")).sendKeys("November");
 		    driver.findElement(By.id("years")).sendKeys("1979");
 		    driver.findElement(By.id("newsletter")).click();
 		    driver.findElement(By.id("optin")).click();
